@@ -48,10 +48,10 @@ ds_cli_exec( "wp plugin install elementor --activate" );
 
 /** Install & Activate Elementor Pro Plugin located on the Computer - Use Path based on DS-CLI */
 /* Mac example */
-//ds_cli_exec( "cp /Volumes/Data/Dropbox/WP_Pithy/8.\ Elementor\elementor-pro-2.9.2.zip ./; wp plugin install elementor-pro-2.9.2.zip --activate; rm elementor-pro-2.9.2.zip" );
+//ds_cli_exec( "cp /Volumes/Data/Premium_theme\elementor-pro-2.9.2.zip ./; wp plugin install elementor-pro-2.9.2.zip --activate; rm elementor-pro-2.9.2.zip" );
 
 /* Windows example */
-ds_cli_exec( "cp 'C:/Users/gregg/Dropbox/WP_Pithy/8. Elementor/elementor-pro-2.9.2.zip' ./; wp plugin install elementor-pro-2.9.2.zip --activate; rm elementor-pro-2.9.2.zip" );
+ds_cli_exec( "cp 'C:/Premium_theme/elementor-pro-2.9.2.zip' ./; wp plugin install elementor-pro-2.9.2.zip --activate; rm elementor-pro-2.9.2.zip" );
 
 //** Download theme from repository and activate
 ds_cli_exec( "wp theme install hello-elementor --activate" );
