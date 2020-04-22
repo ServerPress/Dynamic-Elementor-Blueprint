@@ -54,6 +54,9 @@ ds_cli_exec( "wp plugin install elementor --activate" );
 /* Windows example */
 ds_cli_exec( "cp 'C:/Premium_theme/elementor-pro-2.9.2.zip' ./; wp plugin install elementor-pro-2.9.2.zip --activate; rm elementor-pro-2.9.2.zip" );
 
+//** Activate Elementor license
+//ds_cli_exec( "wp elementor-pro license activate <license-key>" );
+
 //** Download theme from repository and activate
 ds_cli_exec( "wp theme install hello-elementor --activate" );
 
