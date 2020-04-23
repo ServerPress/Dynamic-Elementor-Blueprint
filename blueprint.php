@@ -1,7 +1,7 @@
 <?php
 /**
  * Dynamic Elementor Blueprint
- * Version: 1.0.0
+ * Version: 1.0.1
  *
  * You can modify this blueprint to your liking. For example a user is created named "testadmin" with a password of "password". You can change these and the admin_email address. 
  * Also if you do not want a particular function to occur you can comment that line out by placing two fowrad slashes in front of the line. For example: // ds_cli_exec( "wp plugin delete akismet" ); 
